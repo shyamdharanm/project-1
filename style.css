@@ -1,27 +1,25 @@
- /* Styling the Body element i.e. Color,
-        Font, Alignment */
+
         body {
             background-color: #05c46b;
             font-family: Verdana;
             text-align: center;
         }
         .checked {
-  color: orange;
-}
-h4{
-    font-weight: normal;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-  }
+            color: orange;
+                 }
+          h4{
+            font-weight: normal;
+            }
+         table {
+          border-collapse: collapse;
+          width: 100%;
+               }
   
-  th, td {
-    padding: 8px;
-    text-align: left;
-  }
+          th, td {
+          padding: 8px;
+          text-align: left;
+                 }
 
-       /* Styling the Form (Color, Padding, Shadow) */
         form {
             background-color: #fff;
             max-width: 1000px;
@@ -30,20 +28,16 @@ table {
             box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
         }
  
-        /* Styling form-control Class */
         .form-control {
             text-align: left;
             margin-bottom: 25px;
         }
  
-        /* Styling form-control Label */
         .form-control label {
             display: block;
             margin-bottom: 10px;
         }
  
-        /* Styling form-control input,
-        select, textarea */
         .form-control input,
         .form-control select,
         .form-control textarea {
@@ -56,15 +50,12 @@ table {
             
         }
  
-        /* Styling form-control Radio
-        button and Checkbox */
         .form-control input[type="radio"],
         .form-control input[type="checkbox"] {
             display: inline-block;
             width: auto;
         }
  
-        /* Styling Button */
         button {
             background-color: #05c46b;
             border: 1px solid #777;
