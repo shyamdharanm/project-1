@@ -6,6 +6,7 @@ const promiseCheck = new Promise((resolve, reject) => {
     counterElement.innerText = runner - 1;
     if (runner === 0) {
      clearInterval(Timer);
+     document.body.style.backgroundColor="red";
      resolve((counterElement.innerText = "Happy Independance Day"));
     }else{
       reject("Failed")
