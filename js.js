@@ -6,11 +6,10 @@ const promiseCheck = new Promise((resolve, reject) => {
     counterElement.innerText = runner - 1;
     if (runner === 0) {
      clearInterval(Timer);
-     resolve((counterElement.innerText = "Happy Morning"));
+     resolve((counterElement.innerText = "Happy Independance Day"));
     }else{
-      reject("wht going wrong")
+      reject("Failed")
     }
-    // console.log(runner)
   }, 1000);
 });
 console.log(promiseCheck);
